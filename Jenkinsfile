@@ -5,9 +5,6 @@ pipeline {
         githubPush()
     }
 
-    environment {
-        // Define environment variables if needed
-    }
 
     stages {
         stage('Checkout') {
