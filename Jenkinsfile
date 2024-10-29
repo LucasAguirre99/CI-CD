@@ -18,6 +18,11 @@ pipeline {
         }
         }
     }
+    post{
+        always{
+            echo "pipeline end"
+        }
+    }
 
 }
 
